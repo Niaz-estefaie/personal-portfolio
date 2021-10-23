@@ -1,23 +1,20 @@
 module.exports = {
-  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
-  darkMode: 'media',
+  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
+  darkMode: "class",
   theme: {
-    extend: {},
-    colors: {
-      transparent: 'transparent',
-      current: 'currentColor',
-      gray: {
-        darkest: '#252734',
-        DEFAULT: '#333646',
-        light: '#eaeaec'
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: "1rem",
+        sm: "2rem",
+        lg: "4rem",
+        xl: "5rem",
+        "2xl": "6rem",
       },
-      yellow: {
-        DEFAULT: '#f7c25c'
-      }
-    }
+    },
   },
   variants: {
     extend: {},
   },
   plugins: [],
-}
+};
