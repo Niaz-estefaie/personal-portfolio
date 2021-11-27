@@ -4,24 +4,7 @@ import Header from "./Header/index";
 
 class App extends React.Component {
   state = {
-    jokes: [
-      {
-        setup: "What did the fish say when it hit the wall?",
-        punchline: "Dam.",
-        type: "general",
-      },
-    ],
-    index: 0,
-  };
-
-  getRandomIndex = () => {
-    const { jokes } = this.state;
-    if (jokes.length > 0) {
-      const index = Math.floor(Math.random() * jokes.length);
-      this.setState({
-        index,
-      });
-    }
+    // 
   };
 
   render() {
